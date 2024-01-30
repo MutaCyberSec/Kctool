@@ -57,19 +57,6 @@
   top -b | head -3  
   echo  
   top -b | head -10 | tail -4  
-  echo "--------------------"  
-  echo "Open TCP ports:"  
-  nmap -p -T4 $add  
-  echo "--------------------"  
-  echo "Current connections:"  
-  sudo ss -s  
-  echo "--------------------"  
-  echo "processes:"  
-  ps auxf --width=200  
-  echo "--------------------"  
-  echo "vmstat:"  
-  sudo vmstat 1 5  
-  echo "**------------------" 
   
   
   
