@@ -64,13 +64,7 @@
  } 
   
   
- function hpi() 
- { 
-     echo "Detecting DoS attack using hping3..." 
-     sudo hping3 -c 10000 -d 120 -S -w 64 -p 80 --flood <target_ip> 
- } 
-  
-  
+
  function TcDump() 
  { 
   
