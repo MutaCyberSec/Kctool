@@ -177,10 +177,8 @@
  echo -e "\e[31mUsing Wireshark now...\e[0m" 
  Wire 
   
+ 
   
- echo -e "\e[31mLive monitoring started\e[0m" 
-  
- nload 
   
  } 
   
