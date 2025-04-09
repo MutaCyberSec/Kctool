@@ -35,7 +35,7 @@ tmux new-session -d -s $session_name
 tmux split-window -h -t $session_name:0
 
 # Send commands to each pane
-tmux send-keys -t $session_name:0.0 "bash updated.sh" C-m
+tmux send-keys -t $session_name:0.0 "bash final.sh" C-m
 tmux send-keys -t $session_name:0.1 "nz" C-m
 
 # Attach to the newly created session
