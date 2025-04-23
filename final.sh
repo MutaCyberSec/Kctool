@@ -176,9 +176,7 @@ function TcDump() {
 
     pkill tcpdump 
 
-    analyze_packets 
-
-    rm -f captured_packets.pcap 
+    analyze_packets
 }
 
 # Function to use Wireshark (tshark) for network analysis
